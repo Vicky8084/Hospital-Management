@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/doctor/apis")
+@RequestMapping("/patient/apis")
 public class PatientController {
     Map<Integer, Patient> patientMapDB=new HashMap<>();
     @PostMapping("/save")

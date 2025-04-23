@@ -47,4 +47,15 @@ public class Ward {
     public void setAvailableBeds(int availableBeds) {
         this.availableBeds = availableBeds;
     }
+
+    @Override
+    public String toString() {
+        return "Ward{" +
+                "wardId=" + wardId +
+                ", wardName='" + wardName + '\'' +
+                ", wardType='" + wardType + '\'' +
+                ", totalBeds=" + totalBeds +
+                ", availableBeds=" + availableBeds +
+                '}';
+    }
 }
